@@ -2,7 +2,6 @@ gunicorn
 flask
 numpy
 flask_cors
-pickle
 pandas
 scikit-learn
 sklearn
