@@ -1,0 +1,212 @@
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  background-image: url('fire4.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  filter: blur(5px); 
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 0;
+  display: flex;
+  color: #FFA500;
+  text-align: center;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  margin-right: 920px;
+}
+
+
+
+.my-custom-container {
+  color: #FFA500; 
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 auto;
+  margin: 20px auto 0;
+}
+
+
+.my-custom-container label {
+  font-weight: bold;
+}
+
+.my-custom-container input[type="text"] {
+  width: 30% ;
+  padding: 10px;
+  border: 1px solid #FFA500; 
+  border-radius: 5px;
+  color: #FFA500; 
+  background-color: #000;
+  margin: 10px auto 0;
+  text-align: center; 
+  justify-content: center;
+  align-items: center; 
+  font-size: 18px;
+}
+
+.my-custom-container input[type="text"]:focus::placeholder {
+  color: #FFA500; 
+}
+
+.my-custom-container input[type="text"]:focus {
+  background-color: #fff; 
+  color: #000; 
+}
+.my-custom-container input[type="text"]::placeholder {
+  color: #ffffff; 
+}
+
+
+.my-custom-container button {
+  background-color: #FFA500; 
+  color: #000; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px auto 0;
+}
+
+.my-custom-container button:hover {
+  background-color: #FF6347; 
+}
+
+/* Submit button styles */
+button.btn-large {
+  background-color: #FFA500; 
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button.btn-large:hover {
+  background-color: #e65100; 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Style de la section my-section-container */
+.my-section-container {
+  background: linear-gradient(to bottom, #FFA500, #FF6347); 
+  color: #fff; 
+  padding: 5px; 
+  border: 2px solid #FFA500; 
+  border-radius: 15px; 
+  text-align: center; 
+  max-width: 50%; 
+  margin: 0 auto; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+  font-size: 18px; 
+  line-height: 1.5; 
+  margin: 20px auto 0;
+}
+
+
+/* Style du titre h5 à l'intérieur de la section */
+.my-section-container h5 {
+  font-size: 20px; /* Taille de police */
+  font-weight: bold; /* Gras */
+}
+
+/* Style pour un paragraphe à l'intérieur de la section */
+.my-section-container p {
+  font-size: 16px; /* Taille de police */
+}
+
+/* Style pour un bouton à l'intérieur de la section */
+.my-section-container button {
+  background-color: #FFA500; 
+  color: #000; 
+  border: none; 
+  border-radius: 5px;
+  padding: 20px 20px; 
+  cursor: pointer; 
+}
+
+/* Style pour le bouton au survol */
+.my-section-container button:hover {
+  background-color: #FF6347; 
+}
+
+/* Footer styles */
+/* Style du pied de page */
+footer {
+  background-color: rgba(0, 0, 0, 0); 
+  color: #FFA500; 
+  text-align: center;
+  padding: 20px 0; 
+}
+
+/* Style du texte gris clair */
+.grey-text {
+  color: #ffffff; /* Blanc */
+}
+
+/* Style du nom d'équipe en orange */
+p {
+  color: #FFA500; /* Orange */
+  font-weight: bold; /* Gras */
+}
+
+.result {
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #FFA500; 
+  padding: 15px 20px; 
+  background-color: #000; 
+  color: #FFF; 
+  width: fit-content;
+  margin: 20px auto 0;
+  box-shadow: 0 0 20px rgba(255, 138, 4, 0.5); 
+  font-size: 18px;
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold; 
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  transition: background-color 0.3s ease;
+}
+
+.result:hover {
+  background-color: #FF6347; 
+}
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+}
